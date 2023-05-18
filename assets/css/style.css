@@ -15,7 +15,7 @@ header {
 header .logo {
     font-size: 23px;
     font-weight: bolder;
-    
+    color: white;
 }
 header .menu {
     width: 30px;
@@ -58,6 +58,8 @@ header .menu-line {
 .container .info .name {
     font-weight: bold;
     font-size: 80px;
+    margin-top: 10;
+    margin-bottom: 30px;
 }
 .container .info .buttons a {
     display: inline-block;
@@ -68,6 +70,16 @@ header .menu-line {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    box-shadow: 1px 1px 10px #111111a2; 
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.container .info .buttons a.light {
+    color: white;
+    background-color: #517088;
+}
+.container .info .buttons a:hover {
+    opacity: 0.7;
 }
 
 footer {
