@@ -36,11 +36,15 @@ header .menu-line {
 }
 .container .leftside {
     flex: 1;
-    background-color: rgb(207, 75, 75);
+    background-color: #3b576d;
+    display: flex;
+    align-items: center;
 }
 .container .rightside {
     flex: 1;
-    background-color: rgb(61, 61, 176);
+    background-image: url(../images/Foto\ Perfil.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
