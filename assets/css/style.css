@@ -36,9 +36,16 @@ header .menu-line {
 }
 .container .leftside {
     flex: 1;
-    background-color: rgb(247, 136, 136);
+    background-color: rgb(207, 75, 75);
 }
 .container .rightside {
     flex: 1;
-    background-color: rgb(106, 106, 243);
+    background-color: rgb(61, 61, 176);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
