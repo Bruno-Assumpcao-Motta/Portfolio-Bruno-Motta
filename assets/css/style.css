@@ -87,4 +87,12 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
+    color: white;
+    margin: 20px;
+    
+}
+footer a{
+    color: white;
+    font-size: 13px;
+    
 }
