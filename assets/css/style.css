@@ -96,3 +96,46 @@ footer a{
     font-size: 13px;
     
 }
+
+
+@media (max-width: 850px) {
+    header {
+        position: initial;
+        background-color: #3b576d;
+
+    }
+    header .menu-line {
+        background-color: white;
+    }
+    .container {
+        flex-direction: column;
+        height: calc(100vh - 66px);
+    } 
+    .container .leftside {
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    footer {
+        position: initial;
+        color: #3b576d;
+        justify-content: center;
+        text-align: center;
+    }
+    footer a {
+        position: initial;
+        color: #3b576d;
+    }
+
+}
+@media (max-width: 450px) {
+    .container .leftside .info .name {
+        font-size: 50px;
+    }
+    .container .leftside .info .buttons a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
